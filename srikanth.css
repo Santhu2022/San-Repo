@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-color: #E2E2E2;
+    padding: 20px;
+}
+
+.heading {
+    font-family: 'Times New Roman';
+    color: #848063;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.content-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.card-image {
+    padding: 2px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.card-heading {
+    font-family: 'Arial';
+    font-size: 16px;
+    color: #626262;
+}
+
+.card-description {
+    font-family: 'Arial';
+    font-size: 15px;
+    text-align: left;
+}
+
+.card-button {
+    background-color: #606060;
+    color: #ffffff;
+    font-family: "Arial";
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 6px 16px;
+    margin-top: 20px;
+}
